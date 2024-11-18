@@ -31,7 +31,6 @@ namespace QuanLyBaiBaoKHCN
             ViTriBanDau_pass = panelPass.Top;
         }
 
-        bool flag = false;
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
             lblLoiPass.Visible = false;
@@ -48,19 +47,16 @@ namespace QuanLyBaiBaoKHCN
                 panelPass.Top += (lblEx1.Height - 8);
                 lblEx2.Top += lblEx1.Height - 8;
                 btnDangNhap.Top += (lblEx1.Height);
-                flag = true;
             }
             else if (txtUser.IsEmpty)
             {
                 lblEx1.Visible = true;
                 panelPass.Top += (lblEx1.Height - 8);
-                flag = true;
             }
             else if (txtPass.IsEmpty)
             {
                 lblEx2.Visible = true;
                 btnDangNhap.Top += (lblEx1.Height - 11);
-                flag = true;
             }
             else
             {
@@ -70,7 +66,6 @@ namespace QuanLyBaiBaoKHCN
                     string matKhau = txtPass.Text;
                     var user = qltc.NguoiDungs.FirstOrDefault(t => t.TenDangNhap == tenDangNhap && t.MatKhau == matKhau);
                     var phanQuyen = qltc.NguoiDung_VaiTros.FirstOrDefault(t => t.MaNguoiDung == user.MaNguoiDung);
-                    
                     if (phanQuyen != null)
                     {
                         if (phanQuyen.MaVaiTro == "VT01")

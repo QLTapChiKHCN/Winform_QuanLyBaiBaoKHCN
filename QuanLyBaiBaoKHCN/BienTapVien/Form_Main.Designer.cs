@@ -36,6 +36,7 @@
             this.panelHoTen = new Sunny.UI.UIPanel();
             this.btnTrangChu_Form = new Sunny.UI.UIPanel();
             this.uiPanel1 = new Sunny.UI.UIPanel();
+            this.btnThongKe_Form = new Sunny.UI.UIPanel();
             this.panelForm = new Sunny.UI.UIPanel();
             this.uiPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -44,10 +45,11 @@
             // 
             this.btnSoDuyet_Form.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSoDuyet_Form.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnSoDuyet_Form.Location = new System.Drawing.Point(0, 162);
+            this.btnSoDuyet_Form.Location = new System.Drawing.Point(0, 156);
             this.btnSoDuyet_Form.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSoDuyet_Form.MinimumSize = new System.Drawing.Size(1, 1);
             this.btnSoDuyet_Form.Name = "btnSoDuyet_Form";
+            this.btnSoDuyet_Form.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(96)))), ((int)(((byte)(106)))));
             this.btnSoDuyet_Form.Size = new System.Drawing.Size(218, 53);
             this.btnSoDuyet_Form.TabIndex = 2;
             this.btnSoDuyet_Form.Text = "Sơ duyệt bài viết";
@@ -58,10 +60,11 @@
             // 
             this.btnChonPhanBien_Form.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnChonPhanBien_Form.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnChonPhanBien_Form.Location = new System.Drawing.Point(0, 231);
+            this.btnChonPhanBien_Form.Location = new System.Drawing.Point(0, 219);
             this.btnChonPhanBien_Form.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnChonPhanBien_Form.MinimumSize = new System.Drawing.Size(1, 1);
             this.btnChonPhanBien_Form.Name = "btnChonPhanBien_Form";
+            this.btnChonPhanBien_Form.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(96)))), ((int)(((byte)(106)))));
             this.btnChonPhanBien_Form.Size = new System.Drawing.Size(218, 53);
             this.btnChonPhanBien_Form.TabIndex = 3;
             this.btnChonPhanBien_Form.Text = "Chọn phản biện";
@@ -72,10 +75,11 @@
             // 
             this.btnTaoSoTapChi_Form.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnTaoSoTapChi_Form.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnTaoSoTapChi_Form.Location = new System.Drawing.Point(0, 300);
+            this.btnTaoSoTapChi_Form.Location = new System.Drawing.Point(0, 282);
             this.btnTaoSoTapChi_Form.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnTaoSoTapChi_Form.MinimumSize = new System.Drawing.Size(1, 1);
             this.btnTaoSoTapChi_Form.Name = "btnTaoSoTapChi_Form";
+            this.btnTaoSoTapChi_Form.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(96)))), ((int)(((byte)(106)))));
             this.btnTaoSoTapChi_Form.Size = new System.Drawing.Size(218, 53);
             this.btnTaoSoTapChi_Form.TabIndex = 3;
             this.btnTaoSoTapChi_Form.Text = "Tạo số tạp chí";
@@ -86,10 +90,11 @@
             // 
             this.btnDangBai_Form.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnDangBai_Form.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnDangBai_Form.Location = new System.Drawing.Point(0, 369);
+            this.btnDangBai_Form.Location = new System.Drawing.Point(0, 345);
             this.btnDangBai_Form.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnDangBai_Form.MinimumSize = new System.Drawing.Size(1, 1);
             this.btnDangBai_Form.Name = "btnDangBai_Form";
+            this.btnDangBai_Form.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(96)))), ((int)(((byte)(106)))));
             this.btnDangBai_Form.Size = new System.Drawing.Size(218, 53);
             this.btnDangBai_Form.TabIndex = 3;
             this.btnDangBai_Form.Text = "Đăng bài";
@@ -104,6 +109,7 @@
             this.btnDangXuat.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnDangXuat.MinimumSize = new System.Drawing.Size(1, 1);
             this.btnDangXuat.Name = "btnDangXuat";
+            this.btnDangXuat.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(96)))), ((int)(((byte)(106)))));
             this.btnDangXuat.Size = new System.Drawing.Size(218, 53);
             this.btnDangXuat.TabIndex = 4;
             this.btnDangXuat.Text = "Đăng xuất";
@@ -118,6 +124,7 @@
             this.panelHoTen.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panelHoTen.MinimumSize = new System.Drawing.Size(1, 1);
             this.panelHoTen.Name = "panelHoTen";
+            this.panelHoTen.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(96)))), ((int)(((byte)(106)))));
             this.panelHoTen.Size = new System.Drawing.Size(218, 33);
             this.panelHoTen.TabIndex = 1;
             this.panelHoTen.Text = "họ tên";
@@ -131,6 +138,7 @@
             this.btnTrangChu_Form.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnTrangChu_Form.MinimumSize = new System.Drawing.Size(1, 1);
             this.btnTrangChu_Form.Name = "btnTrangChu_Form";
+            this.btnTrangChu_Form.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(96)))), ((int)(((byte)(106)))));
             this.btnTrangChu_Form.Size = new System.Drawing.Size(218, 53);
             this.btnTrangChu_Form.TabIndex = 3;
             this.btnTrangChu_Form.Text = "Trang chủ";
@@ -139,6 +147,7 @@
             // 
             // uiPanel1
             // 
+            this.uiPanel1.Controls.Add(this.btnThongKe_Form);
             this.uiPanel1.Controls.Add(this.panelHoTen);
             this.uiPanel1.Controls.Add(this.btnTrangChu_Form);
             this.uiPanel1.Controls.Add(this.btnSoDuyet_Form);
@@ -154,9 +163,27 @@
             this.uiPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.uiPanel1.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiPanel1.Name = "uiPanel1";
+            this.uiPanel1.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.uiPanel1.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(96)))), ((int)(((byte)(106)))));
             this.uiPanel1.Size = new System.Drawing.Size(218, 757);
             this.uiPanel1.TabIndex = 5;
+            this.uiPanel1.Text = null;
             this.uiPanel1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnThongKe_Form
+            // 
+            this.btnThongKe_Form.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnThongKe_Form.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btnThongKe_Form.Location = new System.Drawing.Point(0, 408);
+            this.btnThongKe_Form.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnThongKe_Form.MinimumSize = new System.Drawing.Size(1, 1);
+            this.btnThongKe_Form.Name = "btnThongKe_Form";
+            this.btnThongKe_Form.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(96)))), ((int)(((byte)(106)))));
+            this.btnThongKe_Form.Size = new System.Drawing.Size(218, 53);
+            this.btnThongKe_Form.TabIndex = 5;
+            this.btnThongKe_Form.Text = "Thống kê";
+            this.btnThongKe_Form.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnThongKe_Form.Click += new System.EventHandler(this.btnThongKe_Form_Click);
             // 
             // panelForm
             // 
@@ -166,8 +193,10 @@
             this.panelForm.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panelForm.MinimumSize = new System.Drawing.Size(1, 1);
             this.panelForm.Name = "panelForm";
+            this.panelForm.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
             this.panelForm.Size = new System.Drawing.Size(924, 757);
             this.panelForm.TabIndex = 6;
+            this.panelForm.Text = null;
             this.panelForm.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form_Main
@@ -198,5 +227,6 @@
         private Sunny.UI.UIPanel btnTrangChu_Form;
         private Sunny.UI.UIPanel uiPanel1;
         private Sunny.UI.UIPanel panelForm;
+        private Sunny.UI.UIPanel btnThongKe_Form;
     }
 }

@@ -84,6 +84,12 @@
     <Compile Include="BienTapVien\TaoSoTapChi.Designer.cs">
       <DependentUpon>TaoSoTapChi.cs</DependentUpon>
     </Compile>
+    <Compile Include="BienTapVien\ThongKe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BienTapVien\ThongKe.Designer.cs">
+      <DependentUpon>ThongKe.cs</DependentUpon>
+    </Compile>
     <Compile Include="CaiDat.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -141,6 +147,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="BienTapVien\TaoSoTapChi.resx">
       <DependentUpon>TaoSoTapChi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BienTapVien\ThongKe.resx">
+      <DependentUpon>ThongKe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CaiDat.resx">
       <DependentUpon>CaiDat.cs</DependentUpon>

@@ -72,7 +72,7 @@ namespace QuanLyBaiBaoKHCN.BienTapVien
             this.uiLabel9 = new Sunny.UI.UILabel();
             this.cboChuyenNganh = new Sunny.UI.UIComboBox();
             this.uiLabel10 = new Sunny.UI.UILabel();
-            this.uiComboBox1 = new Sunny.UI.UIComboBox();
+            this.cboDonVi = new Sunny.UI.UIComboBox();
             this.uiLabel11 = new Sunny.UI.UILabel();
             this.uiLabel12 = new Sunny.UI.UILabel();
             this.txtEmail = new Sunny.UI.UITextBox();
@@ -466,24 +466,24 @@ namespace QuanLyBaiBaoKHCN.BienTapVien
             this.uiLabel10.TabIndex = 100;
             this.uiLabel10.Text = "Chuyên ngành";
             // 
-            // uiComboBox1
+            // cboDonVi
             // 
-            this.uiComboBox1.DataSource = null;
-            this.uiComboBox1.DropDownStyle = Sunny.UI.UIDropDownStyle.DropDownList;
-            this.uiComboBox1.FillColor = System.Drawing.Color.White;
-            this.uiComboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.uiComboBox1.ItemHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.uiComboBox1.ItemSelectForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
-            this.uiComboBox1.Location = new System.Drawing.Point(1038, 579);
-            this.uiComboBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.uiComboBox1.MinimumSize = new System.Drawing.Size(63, 0);
-            this.uiComboBox1.Name = "uiComboBox1";
-            this.uiComboBox1.Padding = new System.Windows.Forms.Padding(0, 0, 30, 2);
-            this.uiComboBox1.Size = new System.Drawing.Size(177, 33);
-            this.uiComboBox1.SymbolSize = 24;
-            this.uiComboBox1.TabIndex = 103;
-            this.uiComboBox1.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.uiComboBox1.Watermark = "";
+            this.cboDonVi.DataSource = null;
+            this.cboDonVi.DropDownStyle = Sunny.UI.UIDropDownStyle.DropDownList;
+            this.cboDonVi.FillColor = System.Drawing.Color.White;
+            this.cboDonVi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.cboDonVi.ItemHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.cboDonVi.ItemSelectForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
+            this.cboDonVi.Location = new System.Drawing.Point(1038, 579);
+            this.cboDonVi.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cboDonVi.MinimumSize = new System.Drawing.Size(63, 0);
+            this.cboDonVi.Name = "cboDonVi";
+            this.cboDonVi.Padding = new System.Windows.Forms.Padding(0, 0, 30, 2);
+            this.cboDonVi.Size = new System.Drawing.Size(177, 33);
+            this.cboDonVi.SymbolSize = 24;
+            this.cboDonVi.TabIndex = 103;
+            this.cboDonVi.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.cboDonVi.Watermark = "";
             // 
             // uiLabel11
             // 
@@ -493,9 +493,9 @@ namespace QuanLyBaiBaoKHCN.BienTapVien
             this.uiLabel11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
             this.uiLabel11.Location = new System.Drawing.Point(955, 585);
             this.uiLabel11.Name = "uiLabel11";
-            this.uiLabel11.Size = new System.Drawing.Size(66, 25);
+            this.uiLabel11.Size = new System.Drawing.Size(67, 25);
             this.uiLabel11.TabIndex = 102;
-            this.uiLabel11.Text = "Học vị";
+            this.uiLabel11.Text = "Đơn vị";
             // 
             // uiLabel12
             // 
@@ -929,7 +929,7 @@ namespace QuanLyBaiBaoKHCN.BienTapVien
             this.Controls.Add(this.uiLabel13);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.uiLabel12);
-            this.Controls.Add(this.uiComboBox1);
+            this.Controls.Add(this.cboDonVi);
             this.Controls.Add(this.uiLabel11);
             this.Controls.Add(this.cboChuyenNganh);
             this.Controls.Add(this.uiLabel10);
@@ -980,7 +980,7 @@ namespace QuanLyBaiBaoKHCN.BienTapVien
         private Sunny.UI.UILabel uiLabel9;
         private Sunny.UI.UIComboBox cboChuyenNganh;
         private Sunny.UI.UILabel uiLabel10;
-        private Sunny.UI.UIComboBox uiComboBox1;
+        private Sunny.UI.UIComboBox cboDonVi;
         private Sunny.UI.UILabel uiLabel11;
         private Sunny.UI.UILabel uiLabel12;
         private Sunny.UI.UITextBox txtEmail;

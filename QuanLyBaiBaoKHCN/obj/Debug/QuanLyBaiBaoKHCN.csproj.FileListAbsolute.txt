@@ -17,7 +17,8 @@ D:\study\đồ án NCKH\QuanLyBaiBaoKHCN\QuanLyBaiBaoKHCN\obj\Debug\QuanLyBaiBao
 D:\study\đồ án NCKH\QuanLyBaiBaoKHCN\QuanLyBaiBaoKHCN\obj\Debug\QuanLyBaiBaoKHCN.BienTapVien.TaoSoTapChi.resources
 D:\study\đồ án NCKH\QuanLyBaiBaoKHCN\QuanLyBaiBaoKHCN\obj\Debug\QuanLyBaiBaoKHCN.TongBienTap.FMain.resources
 D:\study\đồ án NCKH\QuanLyBaiBaoKHCN\QuanLyBaiBaoKHCN\obj\Debug\QuanLyBaiBaoKHCN.TongBienTap.DuyetPhanBien.resources
-D:\study\đồ án NCKH\QuanLyBaiBaoKHCN\QuanLyBaiBaoKHCN\obj\Debug\QuanLyBaiBaoKHCN.csproj.AssemblyReference.cache
 D:\study\đồ án NCKH\QuanLyBaiBaoKHCN\QuanLyBaiBaoKHCN\obj\Debug\QuanLyBaiBaoKHCN.TongBienTap.DuyetBaiViet.resources
 D:\study\đồ án NCKH\QuanLyBaiBaoKHCN\QuanLyBaiBaoKHCN\obj\Debug\QuanLyBaiBaoKHCN.TrangChu.resources
 D:\study\đồ án NCKH\QuanLyBaiBaoKHCN\QuanLyBaiBaoKHCN\obj\Debug\QuanLyBaiBaoKHCN.CaiDat.resources
+D:\study\đồ án NCKH\QuanLyBaiBaoKHCN\QuanLyBaiBaoKHCN\obj\Debug\QuanLyBaiBaoKHCN.BienTapVien.ThongKe.resources
+D:\study\đồ án NCKH\QuanLyBaiBaoKHCN\QuanLyBaiBaoKHCN\obj\Debug\QuanLyBaiBaoKHCN.csproj.AssemblyReference.cache

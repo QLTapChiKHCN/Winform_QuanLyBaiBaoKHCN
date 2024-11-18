@@ -46,6 +46,7 @@
             this.btnDuyetBai_Form.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnDuyetBai_Form.MinimumSize = new System.Drawing.Size(1, 1);
             this.btnDuyetBai_Form.Name = "btnDuyetBai_Form";
+            this.btnDuyetBai_Form.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(96)))), ((int)(((byte)(106)))));
             this.btnDuyetBai_Form.Size = new System.Drawing.Size(218, 53);
             this.btnDuyetBai_Form.TabIndex = 1;
             this.btnDuyetBai_Form.Text = "Duyệt bài viết";
@@ -60,6 +61,7 @@
             this.btnDangXuat.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnDangXuat.MinimumSize = new System.Drawing.Size(1, 1);
             this.btnDangXuat.Name = "btnDangXuat";
+            this.btnDangXuat.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(96)))), ((int)(((byte)(106)))));
             this.btnDangXuat.Size = new System.Drawing.Size(218, 53);
             this.btnDangXuat.TabIndex = 2;
             this.btnDangXuat.Text = "Đăng xuất";
@@ -74,6 +76,7 @@
             this.panelHoTen.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panelHoTen.MinimumSize = new System.Drawing.Size(1, 1);
             this.panelHoTen.Name = "panelHoTen";
+            this.panelHoTen.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(96)))), ((int)(((byte)(106)))));
             this.panelHoTen.Size = new System.Drawing.Size(218, 33);
             this.panelHoTen.TabIndex = 3;
             this.panelHoTen.Text = "họ tên";
@@ -87,6 +90,7 @@
             this.btnDuyetPhanBien_Form.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnDuyetPhanBien_Form.MinimumSize = new System.Drawing.Size(1, 1);
             this.btnDuyetPhanBien_Form.Name = "btnDuyetPhanBien_Form";
+            this.btnDuyetPhanBien_Form.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(96)))), ((int)(((byte)(106)))));
             this.btnDuyetPhanBien_Form.Size = new System.Drawing.Size(218, 53);
             this.btnDuyetPhanBien_Form.TabIndex = 2;
             this.btnDuyetPhanBien_Form.Text = "Duyệt phản biện";
@@ -101,6 +105,7 @@
             this.btnTrangChu_Form.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnTrangChu_Form.MinimumSize = new System.Drawing.Size(1, 1);
             this.btnTrangChu_Form.Name = "btnTrangChu_Form";
+            this.btnTrangChu_Form.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(96)))), ((int)(((byte)(106)))));
             this.btnTrangChu_Form.Size = new System.Drawing.Size(218, 53);
             this.btnTrangChu_Form.TabIndex = 2;
             this.btnTrangChu_Form.Text = "Trang chủ";
@@ -123,8 +128,10 @@
             this.uiPanel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.uiPanel2.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiPanel2.Name = "uiPanel2";
+            this.uiPanel2.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(96)))), ((int)(((byte)(106)))));
             this.uiPanel2.Size = new System.Drawing.Size(218, 757);
             this.uiPanel2.TabIndex = 7;
+            this.uiPanel2.Text = null;
             this.uiPanel2.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panelForm
@@ -137,6 +144,7 @@
             this.panelForm.Name = "panelForm";
             this.panelForm.Size = new System.Drawing.Size(924, 757);
             this.panelForm.TabIndex = 8;
+            this.panelForm.Text = null;
             this.panelForm.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // FMain

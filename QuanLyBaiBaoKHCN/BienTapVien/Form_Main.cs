@@ -29,6 +29,7 @@ namespace QuanLyBaiBaoKHCN.BienTapVien
         TaoSoTapChi Frm_TaoSoTapChi = null;
         DangBai Frm_DangBai = null;
         TrangChu Frm_TrangChu = null;
+        ThongKe Frm_ThongKe = null;
 
         void DongForm()
         {
@@ -56,6 +57,11 @@ namespace QuanLyBaiBaoKHCN.BienTapVien
             {
                 panelForm.Controls.Remove(Frm_TrangChu);
                 Frm_TrangChu = null;
+            }
+            if (Frm_ThongKe != null)
+            {
+                panelForm.Controls.Remove(Frm_ThongKe);
+                Frm_ThongKe = null;
             }
         }
 
@@ -127,12 +133,30 @@ namespace QuanLyBaiBaoKHCN.BienTapVien
             }
         }
 
+        private void btnThongKe_Form_Click(object sender, EventArgs e)
+        {
+            DongForm();
+            if (Frm_ThongKe == null)
+            {
+                Frm_ThongKe = new ThongKe();
+                Frm_ThongKe.TopLevel = false;
+                panelForm.Controls.Add(Frm_ThongKe);
+                Frm_ThongKe.Dock = DockStyle.Fill;
+                Frm_ThongKe.Show();
+            }
+            else
+            {
+                Frm_ThongKe.Activate();
+            }
+        }
+
         private void btnDangXuat_Click(object sender, EventArgs e)
         {
             this.Close();
             Login login = new Login();
             login.Visible = true;
         }
+
 
         private void btnTrangChu_Form_Click(object sender, EventArgs e)
         {
